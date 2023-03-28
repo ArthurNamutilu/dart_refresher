@@ -12,7 +12,6 @@ void test(){
     print('hello there');
   }
 }
-
 void main() {
   test();
   print(getFullName('Arthur', 'Namutilu'));
