@@ -1,9 +1,8 @@
-// function
+// Dart function
 String getFullName(String firstName, String lastName) {
   return '$firstName $lastName';
 }
 // if else
-
 void test(){
   final name = 'Developer';
   if (name == 'Developer'){
