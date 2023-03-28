@@ -8,8 +8,9 @@ void test(){
   if (name == 'Developer'){
     print("Hi Software Engineer");
   }
-  else 
+  else {
     print('hello there');
+  }
 }
 
 void main() {
