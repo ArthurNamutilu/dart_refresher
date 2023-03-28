@@ -4,7 +4,7 @@ String getFullName(String firstName, String lastName) {
 }
 // if else
 void test(){
-  final name = "Developer";
+  final name = 'Developer';
   if (name == 'Developer'){
     print("Hi Software Engineer");
   }
