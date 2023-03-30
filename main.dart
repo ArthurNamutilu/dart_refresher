@@ -22,4 +22,8 @@ void main() {
   test();
   print(getFullName('Arthur', 'Namutilu'));
   ntimes();
+  // list
+  final names = ['Arthur', 'Gg', 'Ricky'];
+  final official = names[0];
+  print(official);
 }
