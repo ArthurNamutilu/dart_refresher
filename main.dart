@@ -2,6 +2,14 @@
 String getFullName(String firstName, String lastName) {
   return '$firstName $lastName';
 }
+// Maps - hold key value pairs of information
+void mapFunc(){
+  var person = {
+    'age': 20,
+    'name': 'Jiji',
+  };
+  print(person);
+}
 // if else
 void test(){
   final name = 'Developer';
@@ -18,7 +26,11 @@ void ntimes(){
     print(i);
   }
 }
+
+
+// MAIN() - Start of program
 void main() {
+  mapFunc();
   test();
   print(getFullName('Arthur', 'Namutilu'));
   ntimes();
