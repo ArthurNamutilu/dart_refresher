@@ -2,6 +2,14 @@
 String getFullName(String firstName, String lastName) {
   return '$firstName $lastName';
 }
+// NULL SAFETY use ?
+void nullSafe(){
+  final String? fname = null;
+  final String? mname = null;
+  final String? lname = 'Gg';
+  final String? nonNullValue = fname ?? mname ?? lname;
+  print(nonNullValue);
+}
 // Maps - hold key value pairs of information
 void mapFunc(){
   var person = {
@@ -34,6 +42,8 @@ void main() {
   test();
   print(getFullName('Arthur', 'Namutilu'));
   ntimes();
+  print('null safe');
+  nullSafe();
   // list
   final names = ['Arthur', 'Gg', 'Ricky'];
   final official = names[0];
