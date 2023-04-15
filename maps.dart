@@ -2,7 +2,7 @@
 void main() {
   // DECLARING MAP USING MAP LITERALS
   // var map_name = {key1:value1, key2:value2....}
-  var car = {'name': 'Mercedes', 'year': '2021'};
+  var car = {'name': 'Mercedes', 'year': 2021};
   print(car);
   car['color'] = 'Black';
   print(car);
